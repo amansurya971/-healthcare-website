@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Healthcare Website</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+    <header>
+        <h1>About Us</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+        </nav>
+    </header>
+
+    <section class="about">
+        <h2>Welcome to Our Healthcare Platform</h2>
+        <p>We provide affordable healthcare solutions with AI-powered symptom checking, doctor consultations, and more.</p>
+        
+        <h3>Our Mission</h3>
+        <p>To make healthcare accessible and affordable for everyone.</p>
+
+        <h3>Our Services</h3>
+        <ul>
+            <li>AI-powered symptom checker</li>
+            <li>Book doctor appointments</li>
+            <li>Video consultations</li>
+            <li>Prescription management</li>
+            <li>24/7 chat with doctors</li>
+        </ul>
+    </section>
+
+    <footer>
+        <button onclick="location.href='/'">Go Back</button>
+    </footer>
+
+</body>
+</html>
+s
